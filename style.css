@@ -10,7 +10,7 @@
 
 section {
   min-height: 100vh;
-  width: 120%;
+  width: 120vw;
   display: flex;
   align-items: center;
   justify-content: center;
