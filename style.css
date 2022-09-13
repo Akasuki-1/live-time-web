@@ -136,3 +136,14 @@ section.dark .time .time-colon .colon {
   letter-spacing: 2px;
 }
 
+.footer {
+        display: grid;
+        place-items: center;
+        p {
+            font-size: 10px;
+            font-weight: 300;
+            a {
+                color: #372865;
+            }
+        }
+    }
