@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Timevoky music</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com'>
+<link rel='stylesheet' href='https://fonts.gstatic.com'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Georama:wght@200;300;500&amp;display=swap'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'><link rel="stylesheet" href="./player/music.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="section">
+        <div class="section__background">
+            <img id="backgroundImage" class="section__background-image" src="https://yildirimzlm.s3.us-east-2.amazonaws.com/post-malone-2.jpeg" alt="">
+        </div>
+        <div class="music-card__wrapper">
+            <div class="music-card">
+                <div class="music-card__content">
+                    <img class="music-image" src="https://yildirimzlm.s3.us-east-2.amazonaws.com/post-malone-2.jpeg" alt="">
+                    <div class="music-info">
+                        <h2 class="music-name">Rockstar (feat.21 Savage)</h2>
+                        <p class="music-artist">Post Malone</p>
+                    </div>
+                    <audio src="https://yildirimzlm.s3.us-east-2.amazonaws.com/Post+Malone+-+rockstar+ft.+21+Savage+(Official+Audio).mp3"></audio>
+                    <div class="music-progress">
+                        <div id="progress-bar" class="music-progress-bar"></div>
+                        <div class="music-progress__time">
+                            <span class="music-progress__time-item music-current-time">00:00</span>
+                            <span class="music-progress__time-item music-duration-time">00:00</span>
+                        </div>
+                    </div>
+                    <div class="music-controls">
+                        <div id="prev" class="music-controls-item">
+                            <i class="fas fa-backward music-controls-item--icon"></i>
+                        </div>
+
+                        <div id="play" class="music-controls-item">
+                            <i class="fas fa-play music-controls-item--icon play-icon"></i>
+                            <div class="play-icon-background"></div>
+                        </div>
+
+                        <div id="next" class="music-controls-item">
+                            <i class="fas fa-forward music-controls-item--icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- partial -->
+  <script  src="./player/music.js"></script>
+
+</body>
+</html>
+
