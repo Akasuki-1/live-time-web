@@ -148,3 +148,12 @@ footer {
             }
         }
     }
+
+
+.music-button a{
+    display: inline-block;
+    color: #fff;
+    background: #009e66;
+    padding: 10px 30px;
+    text-decoration: none;
+}
