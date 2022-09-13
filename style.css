@@ -139,17 +139,16 @@ section.dark .time .time-colon .colon {
 footer {
         display: grid;
         place-items: center;
-.c1-button{
-            font-family: monospace;
-            font-size: 30px;
-            font-weight: 300;
-            height: 0px;
-            width: 500px;
-            a {
-                color: #372865;
-            }
-        }
-    }
+       }
+
+.c1-button-button a{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background: #009e66;
+    padding: 10px 30px;
+    text-decoration: none;
+}
 
 
 .music-button a{
