@@ -143,6 +143,7 @@ footer {
             font-family: monospace;
             font-size: 30px;
             font-weight: 300;
+            padding: 0 20px
             a {
                 color: #372865;
             }
