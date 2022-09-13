@@ -138,10 +138,10 @@ section.dark .time .time-colon .colon {
 
 footer {
         display: grid;
-        place-items: flex-end;
+        place-items: center;
         p {
             font-family: monospace;
-            font-size: 10px;
+            font-size: 30px;
             font-weight: 300;
             a {
                 color: #372865;
