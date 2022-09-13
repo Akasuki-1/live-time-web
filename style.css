@@ -139,7 +139,7 @@ section.dark .time .time-colon .colon {
 footer {
         display: grid;
         place-items: center;
-        p {
+.c1-button{
             font-family: monospace;
             font-size: 30px;
             font-weight: 300;
