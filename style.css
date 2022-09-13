@@ -144,6 +144,8 @@ footer {
 .c1-button a{
     display: inline-block;
     text-align: center;
+    height: 0px;      
+    width: 500px;
     color: #fff;
     background: #009e66;
     padding: 10px 30px;
