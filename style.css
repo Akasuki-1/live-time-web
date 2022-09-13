@@ -140,6 +140,7 @@ footer {
         display: grid;
         place-items: center;
         p {
+            font-family: monospace;
             font-size: 10px;
             font-weight: 300;
             a {
