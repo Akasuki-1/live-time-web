@@ -9,7 +9,7 @@
 }
 
 section {
-  min-height: 120vh;
+  min-height: 50vh;
   width: 120vw;
   display: flex;
   align-items: center;
