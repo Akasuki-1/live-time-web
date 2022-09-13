@@ -136,7 +136,7 @@ section.dark .time .time-colon .colon {
   letter-spacing: 2px;
 }
 
-.footer {
+footer {
         display: grid;
         place-items: center;
         p {
