@@ -136,20 +136,15 @@ section.dark .time .time-colon .colon {
   letter-spacing: 2px;
 }
 
-footer {
-        display: grid;
-        place-items: center;
-       }
+.c1-button{ 
+     font-family: monospace; 
+     font-size: 30px;
+     font-weight: 300; 
+     padding: 0 20px; 
+     height: 40px; 
+     width: 500px;
 
-.c1-button a{
-    display: inline-block;
-    text-align: center;
-    height: 0px;      
-    width: 500px;
-    color: #fff;
-    background: #009e66;
-    padding: 10px 30px;
-    text-decoration: none;
+   a { color: #372865; }  
 }
 
 
